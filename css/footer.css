@@ -40,3 +40,54 @@ img.logo_png {
     width: 148px;
     height: 36px;
 }
+
+/* Tablets */
+@media screen and (max-width: 768px){
+    .footer {
+        width: auto;
+        height: auto;
+    }
+
+    .footer_main_container_bottom {
+        height: 100px;
+        padding-top: 0;
+        width: 420px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img.logo_png {
+        display: none;
+    }
+
+    .footer_social_media {
+        width: 120px;
+    }
+}
+
+/* Small devices */
+@media screen and (max-width: 450px){
+    .footer_main_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        height: 80px;
+    }
+
+    .footer_main_container_bottom {
+        padding: 0;
+        width: 300px;
+        justify-content: space-around;
+        height: 80px;
+    }
+
+    img.logo_png {
+        display: none;
+    }
+
+    .footer_social_media {
+        width: 120px;
+    }
+}
